@@ -5,7 +5,7 @@ import logging
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 def load_css(file_name):
     """Load CSS file."""
